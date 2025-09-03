@@ -1,0 +1,76 @@
+19:45:59.099103 ens224 In  IP (tos 0x0, ttl 255, id 46278, offset 0, flags [none], proto UDP (17), length 167)
+    192.168.210.181.514 > 192.168.210.171.514: SYSLOG, length: 139
+	Facility local0 (16), Severity info (6)
+	Msg: Sep 02 2025 14:15:58: %ASA-6-305011: Built dynamic TCP translation from management:192.168.210.132/56975 to WiFi:192.168.29.181/56975^J
+19:45:59.099103 ens224 In  IP (tos 0x0, ttl 255, id 55492, offset 0, flags [none], proto UDP (17), length 211)
+    192.168.210.181.514 > 192.168.210.171.514: SYSLOG, length: 183
+	Facility local0 (16), Severity info (6)
+	Msg: Sep 02 2025 14:15:58: %ASA-6-302013: Built inbound TCP connection 109 for management:192.168.210.132/56975 (192.168.29.181/56975) to WiFi:20.190.145.142/443 (20.190.145.142/443)^J
+19:45:59.099397 ens224 In  IP (tos 0x0, ttl 255, id 44004, offset 0, flags [none], proto UDP (17), length 191)
+    192.168.210.181.514 > 192.168.210.171.514: SYSLOG, length: 163
+	Facility local0 (16), Severity info (6)
+	Msg: Sep 02 2025 14:15:58: %ASA-6-302020: Built inbound ICMP connection for faddr 192.168.210.171/0 gaddr 192.168.210.181/0 laddr 192.168.210.181/0 type 3 code 3 ^J
+
+
+
+
+
+
+
+
+19:46:20.986697 ens224 In  IP (tos 0x0, ttl 255, id 4088, offset 0, flags [none], proto UDP (17), length 172)
+    192.168.210.181.514 > 192.168.210.171.514: SYSLOG, length: 144
+	Facility local0 (16), Severity notice (5)
+	Msg: :Sep 02 14:16:20 UTC: %ASA-config-5-111008: User 'enable_15' executed the 'logging host management 192.168.210.171 format emblem' command.^J
+19:46:20.986697 ens224 In  IP (tos 0x0, ttl 255, id 14356, offset 0, flags [none], proto UDP (17), length 197)
+    192.168.210.181.514 > 192.168.210.171.514: SYSLOG, length: 169
+	Facility local0 (16), Severity notice (5)
+	Msg: :Sep 02 14:16:20 UTC: %ASA-config-5-111010: User 'enable_15', running 'CLI' from IP 192.168.29.99, executed 'logging host management 192.168.210.171 format emblem'^J
+19:46:20.987080 ens224 In  IP (tos 0x0, ttl 255, id 54640, offset 0, flags [none], proto UDP (17), length 199)
+    192.168.210.181.514 > 192.168.210.171.514: SYSLOG, length: 171
+	Facility local0 (16), Severity info (6)
+	Msg: :Sep 02 14:16:20 UTC: %ASA-session-6-302020: Built inbound ICMP connection for faddr 192.168.210.171/0 gaddr 192.168.210.181/0 laddr 192.168.210.181/0 type 3 code 3 ^J
+19:46:20.987080 ens224 In  IP (tos 0x0, ttl 255, id 63364, offset 0, flags [none], proto UDP (17), length 194)
+    192.168.210.181.514 > 192.168.210.171.514: SYSLOG, length: 166
+	Facility local0 (16), Severity info (6)
+	Msg: :Sep 02 14:16:20 UTC: %ASA-session-6-302021: Teardown ICMP connection for faddr 192.168.210.171/0 gaddr 192.168.210.181/0 laddr 192.168.210.181/0 type 3 code 3 ^J
+
+
+
+
+
+
+
+
+
+
+20:09:47.369375 docker0 Out IP (tos 0x0, ttl 254, id 47524, offset 0, flags [none], proto UDP (17), length 167)
+    192.168.210.181.514 > 172.17.0.2.514: SYSLOG, length: 139
+	Facility local0 (16), Severity info (6)
+	Msg: Sep 02 2025 14:39:46: %ASA-6-305011: Built dynamic TCP translation from management:192.168.210.132/57020 to WiFi:192.168.29.181/57020^J
+20:09:47.369382 veth616329c Out IP (tos 0x0, ttl 254, id 47524, offset 0, flags [none], proto UDP (17), length 167)
+    192.168.210.181.514 > 172.17.0.2.514: SYSLOG, length: 139
+	Facility local0 (16), Severity info (6)
+	Msg: Sep 02 2025 14:39:46: %ASA-6-305011: Built dynamic TCP translation from management:192.168.210.132/57020 to WiFi:192.168.29.181/57020^J
+20:09:47.369396 docker0 Out IP (tos 0x0, ttl 254, id 42104, offset 0, flags [none], proto UDP (17), length 209)
+    192.168.210.181.514 > 172.17.0.2.514: SYSLOG, length: 181
+	Facility local0 (16), Severity info (6)
+	Msg: Sep 02 2025 14:39:46: %ASA-6-302013: Built inbound TCP connection 354 for management:192.168.210.132/57020 (192.168.29.181/57020) to WiFi:52.123.128.14/443 (52.123.128.14/443)^J
+20:09:47.369398 veth616329c Out IP (tos 0x0, ttl 254, id 42104, offset 0, flags [none], proto UDP (17), length 209)
+    192.168.210.181.514 > 172.17.0.2.514: SYSLOG, length: 181
+	Facility local0 (16), Severity info (6)
+	Msg: Sep 02 2025 14:39:46: %ASA-6-302013: Built inbound TCP connection 354 for management:192.168.210.132/57020 (192.168.29.181/57020) to WiFi:52.123.128.14/443 (52.123.128.14/443)^J
+20:09:47.483408 ens224 In  IP (tos 0x0, ttl 255, id 38212, offset 0, flags [none], proto UDP (17), length 214)
+    192.168.210.181.514 > 192.168.210.171.514: SYSLOG, length: 186
+	Facility local0 (16), Severity info (6)
+	Msg: Sep 02 2025 14:39:46: %ASA-6-302014: Teardown TCP connection 350 for management:192.168.210.132/57016 to WiFi:52.123.128.14/443 duration 0:01:12 bytes 3685 TCP FINs from management^J
+20:09:47.483442 docker0 Out IP (tos 0x0, ttl 254, id 38212, offset 0, flags [none], proto UDP (17), length 214)
+    192.168.210.181.514 > 172.17.0.2.514: SYSLOG, length: 186
+	Facility local0 (16), Severity info (6)
+	Msg: Sep 02 2025 14:39:46: %ASA-6-302014: Teardown TCP connection 350 for management:192.168.210.132/57016 to WiFi:52.123.128.14/443 duration 0:01:12 bytes 3685 TCP FINs from management^J
+20:09:47.483448 veth616329c Out IP (tos 0x0, ttl 254, id 38212, offset 0, flags [none], proto UDP (17), length 214)
+    192.168.210.181.514 > 172.17.0.2.514: SYSLOG, length: 186
+	Facility local0 (16), Severity info (6)
+	Msg: Sep 02 2025 14:39:46: %ASA-6-302014: Teardown TCP connection 350 for management:192.168.210.132/57016 to WiFi:52.123.128.14/443 duration 0:01:12 bytes 3685 TCP FINs from management^J
+uh 
+Teardown @STRING:PROTO@ connection @NUMBER@ for @ANYSTRING@:@IPV4:SOURCE_IP@/@NUMBER@ to @ANYSTRING@:@IPV4:DEST_IP@/@NUMBER:DEST_PORT@ duration @ANYSTRING@ bytes @NUMBER:BYTES@ TCP Teardown TCP connection 350 for management:192.168.210.132/57016 to WiFi:52.123.128.14/443 duration 0:01:12 bytes 3685 TCP FINs from management^J
