@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  syslog-ng:
+    image: balabit/syslog-ng:latest
+    container_name: syslog-ng-ciscoasa
+    restart: unless-stopped
+    ports:
+      - "514:514/udp"    # Cisco ASA sends syslogs here
+    volumes:
+      - ./syslog-ng/syslog-ng.conf:/etc/syslog-ng/syslog-ng.conf:ro
+      - ./syslog-ng/patterndb.d/:/etc/syslog-ng/patterndb.d/:ro
+      - ./logs:/var/log/cisco-asa
