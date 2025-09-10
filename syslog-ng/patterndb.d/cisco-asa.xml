@@ -1,0 +1,13 @@
+<patterndb version='4' pub_date='2025-09-08'>
+  <ruleset name='cisco_asa' id='1'>
+    <rules>
+      <rule id="2" class="system" provider="cisco">
+        <patterns>
+          <!-- Alternative: Just match the message part if the header varies -->
+          <pattern>Teardown dynamic @STRING:protocol@ translation from @STRING:ingress_nic@:@IPv4:src_ip@/@NUMBER:src_port@ to @STRING:egress_nic@:@IPv4:dst_ip@/@NUMBER:dst_port@ duration @ANYSTRING:duration@</pattern>
+          <pattern>Teardown @STRING:protocol@ connection @NUMBER:conn_id@ for @STRING:ingress_nic@:@IPv4:src_ip@/@NUMBER:src_port@ to @STRING:egress_nic@:@IPv4:dst_ip@/@NUMBER:dst_port@ duration @ANYSTRING:duration@</pattern>
+        </patterns>
+      </rule>
+    </rules>
+  </ruleset>
+</patterndb>
